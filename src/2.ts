@@ -19,11 +19,8 @@ class Employee {
   constructor(
   public name: string,
   private department: string,
-  protected salary: number,
-  ) {
-    this.name = name;
-    this.department = department;
-    this.salary = salary;
+  protected salary: number) {
+    
   }
 
   getEmployeeDetails() {
